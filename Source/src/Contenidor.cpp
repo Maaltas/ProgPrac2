@@ -1,9 +1,8 @@
-//
-// Created by oriol on 18/10/2023.
-//
+#include "Contenidor.h"
 
-#include "../../Headers/Include/Contenidor.h"
+Contenidor::Contenidor(int nRow, int nCol) {
 
+}
 
 void Contenidor::afegirElement(Element *) {
 
@@ -24,4 +23,6 @@ int Contenidor::getQuants() {
 void Contenidor::mostrar() {
 
 }
+
+
 

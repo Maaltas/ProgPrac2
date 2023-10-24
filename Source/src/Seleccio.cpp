@@ -1,5 +1,4 @@
-
-#include "../../Headers/Include/Seleccio.h"
+#include "Seleccio.h"
 
 Seleccio::Seleccio() {
 
@@ -18,9 +17,56 @@ bool Seleccio::afegir(Element *element) {
 }
 
 bool Seleccio::eliminar3iguals() {
-    return false;
+    int countA = 0, countB = 0, countC = 0, countD = 0;
     for(auto & i : array){
+        if(*i == nullptr)
+            break;
+        if(i->getSimbol() == 'A') {
+            if (countA >= 3) {
+                eliminarSimbol('A');
+                break;
+            }
+            countA++;
+        }
+        if(i->getSimbol() == 'B') {
+            if (countB >= 3) {
+                eliminarSimbol('B');
+                break;
+            }
+            countB++;
+        }
+        if(i->getSimbol() == 'C') {
+            if (countC >= 3) {
+                eliminarSimbol('C');
+                break;
+            }
+            countC++;
+        }
+        if(i->getSimbol() == 'D') {
+            if (countD >= 3) {
+                eliminarSimbol('D');
+                break;
+            }
+            countD++;
+        }
+        if(i->getSimbol() == '*') {
+            countA++;
+            countB++;
+            countC++;
+            countD++;
+        }
+    }
+    return false;
+}
 
+void Seleccio::eliminarSimbol(char simbol) {
+    for(auto & i : array){
+        if(*i == nullptr)
+            break;
+        if(i->getSimbol() == simbol){
+            *i = nullptr; // revisar!!!
+            break;
+        }
     }
 }
 
@@ -29,6 +75,11 @@ int Seleccio::getPremiFinal() {
 }
 
 void Seleccio::mostrar() {
-
+    for(auto & i : array){
+        if(*i == nullptr)
+            cout << "_" << " ";
+        cout << i->getSimbol() << " ";
+    }
+    cout << endl;
 }
 

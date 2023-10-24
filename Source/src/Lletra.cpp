@@ -1,3 +1,9 @@
-//
-// Created by oriol on 18/10/2023.
-//
+#include "Lletra.h"
+
+class Lletra {
+
+}
+
+bool Lletra::getSeleccionada() {
+    return seleccionada;
+}

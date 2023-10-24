@@ -6,6 +6,7 @@ private:
     char simbol;
 public:
     Element();
+    // Element(...);
     char getSimbol();
     virtual int getPremi();
     bool operator == (Element *other);
