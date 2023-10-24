@@ -8,7 +8,7 @@ private:
         Element *continugt;
         node *seguent;
     };
-    node **taula;
+    node* *taula;
 public:
     Contenidor(int nRow, int nCol);
     void afegirElement(Element *);

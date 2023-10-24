@@ -21,7 +21,7 @@ int Contenidor::getQuants() {
 }
 
 void Contenidor::mostrar() {
-
+    
 }
 
 

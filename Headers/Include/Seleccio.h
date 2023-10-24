@@ -3,7 +3,7 @@
 
 #include <memory>
 #include "Element.h"
-
+using namespace std;
 class Seleccio{
     private:
         static const int mida = 6;
@@ -16,8 +16,7 @@ class Seleccio{
         int getPremiFinal();
         void mostrar();
         void eliminarSimbol(char simbol);
-
-    bool afegir(std::shared_ptr<Element> element);
+        bool afegir(shared_ptr<Element> element);
 };
 
 #endif
