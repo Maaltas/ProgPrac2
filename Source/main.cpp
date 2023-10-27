@@ -1,25 +1,48 @@
 #include <iostream>
+
 using namespace std;
+
 #include "Lletra.h"
+#include "Contenidor.h"
+#include "Seleccio.h"
 
 
+int main() {
+    cout << "Hello World\n";
+    int dificultat = 0;
+    int nCol, nRow, columna, fila;
+    do {
+        cout << "Escull el nivell de dificultat" << endl;
+        cout << "1. Fàcil" << endl;
+        cout << "2. Mitjà" << endl;
+        cout << "3. Difícil" << endl;
+        cin >> dificultat;
 
-int main()
-{
-    cout<<"Hello World";
+        switch (dificultat) {
+            case 1:
+                nCol = 6;
+                nRow = 4;
+                break;
+            case 2:
+                nCol = 4;
+                nRow = 6;
+                break;
+            case 3:
+                nCol = 3;
+                nRow = 8;
+                break;
+            default:
+                break;
+        }
+    } while (dificultat > 3 || dificultat < 1);
 
-    Lletra c; //invoca el constructor per defecte
-    Lletra b(50,'B');
+    auto *selector = new Seleccio();
+    auto *contenidor = new Contenidor(nRow, nCol);
+    cout << "Seleccioneu 3 lletres iguals:\n";
+    selector->mostrar();
+    cout << "Lletres disponibles:\n";
+    contenidor->mostrar();
 
-    //Element e; ERROR: no es pot inicialitzar un objecte d'una classe abstracte
-    //Element seleccionades[6]; MATEIX ERROR
-
-    Element *e;
-    e= new Lletra(50,'A');
-
-    Element *seleccionades;
-    seleccionades = new Lletra[6];
-    // crea un array del tipus Element però inicialitzem amb el constructor per defecte de la filla Lletra
-
-    return 0;
+    cout << "Especifica una columna dins de l'interval [1," << nCol << "] o 0 per seleccionar l'asterisc" << endl;
+    cin >> columna;
 }

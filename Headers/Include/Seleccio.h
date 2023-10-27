@@ -16,7 +16,6 @@ class Seleccio{
         int getPremiFinal();
         void mostrar();
         void eliminarSimbol(char simbol);
-        bool afegir(shared_ptr<Element> element);
 };
 
 #endif

@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/oriol/OneDrive/Escritorio/POO/Pràctiques/Practica3POO/ProgPrac2/Source/main.cpp" "CMakeFiles/untitled.dir/Source/main.cpp.obj" "gcc" "CMakeFiles/untitled.dir/Source/main.cpp.obj.d"
-  "C:/Users/oriol/OneDrive/Escritorio/POO/Pràctiques/Practica3POO/ProgPrac2/Source/src/Comodi.cpp" "CMakeFiles/untitled.dir/Source/src/Comodi.cpp.obj" "gcc" "CMakeFiles/untitled.dir/Source/src/Comodi.cpp.obj.d"
-  "C:/Users/oriol/OneDrive/Escritorio/POO/Pràctiques/Practica3POO/ProgPrac2/Source/src/Contenidor.cpp" "CMakeFiles/untitled.dir/Source/src/Contenidor.cpp.obj" "gcc" "CMakeFiles/untitled.dir/Source/src/Contenidor.cpp.obj.d"
-  "C:/Users/oriol/OneDrive/Escritorio/POO/Pràctiques/Practica3POO/ProgPrac2/Source/src/Element.cpp" "CMakeFiles/untitled.dir/Source/src/Element.cpp.obj" "gcc" "CMakeFiles/untitled.dir/Source/src/Element.cpp.obj.d"
-  "C:/Users/oriol/OneDrive/Escritorio/POO/Pràctiques/Practica3POO/ProgPrac2/Source/src/Lletra.cpp" "CMakeFiles/untitled.dir/Source/src/Lletra.cpp.obj" "gcc" "CMakeFiles/untitled.dir/Source/src/Lletra.cpp.obj.d"
-  "C:/Users/oriol/OneDrive/Escritorio/POO/Pràctiques/Practica3POO/ProgPrac2/Source/src/Seleccio.cpp" "CMakeFiles/untitled.dir/Source/src/Seleccio.cpp.obj" "gcc" "CMakeFiles/untitled.dir/Source/src/Seleccio.cpp.obj.d"
+  "C:/Users/blaze/Documents/GitHub/ProgPrac2/Source/main.cpp" "CMakeFiles/untitled.dir/Source/main.cpp.obj" "gcc" "CMakeFiles/untitled.dir/Source/main.cpp.obj.d"
+  "C:/Users/blaze/Documents/GitHub/ProgPrac2/Source/src/Comodi.cpp" "CMakeFiles/untitled.dir/Source/src/Comodi.cpp.obj" "gcc" "CMakeFiles/untitled.dir/Source/src/Comodi.cpp.obj.d"
+  "C:/Users/blaze/Documents/GitHub/ProgPrac2/Source/src/Contenidor.cpp" "CMakeFiles/untitled.dir/Source/src/Contenidor.cpp.obj" "gcc" "CMakeFiles/untitled.dir/Source/src/Contenidor.cpp.obj.d"
+  "C:/Users/blaze/Documents/GitHub/ProgPrac2/Source/src/Element.cpp" "CMakeFiles/untitled.dir/Source/src/Element.cpp.obj" "gcc" "CMakeFiles/untitled.dir/Source/src/Element.cpp.obj.d"
+  "C:/Users/blaze/Documents/GitHub/ProgPrac2/Source/src/Lletra.cpp" "CMakeFiles/untitled.dir/Source/src/Lletra.cpp.obj" "gcc" "CMakeFiles/untitled.dir/Source/src/Lletra.cpp.obj.d"
+  "C:/Users/blaze/Documents/GitHub/ProgPrac2/Source/src/Seleccio.cpp" "CMakeFiles/untitled.dir/Source/src/Seleccio.cpp.obj" "gcc" "CMakeFiles/untitled.dir/Source/src/Seleccio.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

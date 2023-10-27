@@ -10,7 +10,7 @@ char Element::getSimbol() {
 }
 
 int Element::getPremi() {
-    return 0;
+    return 25;
 }
 
 bool Element::operator==(Element *other) {

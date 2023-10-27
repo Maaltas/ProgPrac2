@@ -2,7 +2,10 @@
 #include <iostream>
 using namespace std;
 Seleccio::Seleccio() {
-
+    premiFinal = 0;
+    for(auto & i : array){
+        i = nullptr;
+    }
 }
 
 bool Seleccio::afegir(Element *element) {
@@ -65,6 +68,7 @@ void Seleccio::eliminarSimbol(char simbol) {
         if(*i == nullptr)
             break;
         if(i->getSimbol() == simbol){
+            premiFinal += i->getPremi();
             delete i;
             i = nullptr;
             break;
@@ -83,14 +87,5 @@ void Seleccio::mostrar() {
         cout << i->getSimbol() << " ";
     }
     cout << endl;
-}
-
-bool Seleccio::afegir(shared_ptr<Element> element) {
-    for (int i=0; i < 6; i++){
-        if (array[i]==element){
-
-        }
-    }
-
 }
 

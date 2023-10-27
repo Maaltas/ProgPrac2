@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\oriol\OneDrive\Escritorio\POO\Pràctiques\Practica3POO\ProgPrac2
+CMAKE_SOURCE_DIR = C:\Users\blaze\Documents\GitHub\ProgPrac2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\oriol\OneDrive\Escritorio\POO\Pràctiques\Practica3POO\ProgPrac2\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\blaze\Documents\GitHub\ProgPrac2\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/untitled.dir/depend.make
@@ -70,93 +70,93 @@ include CMakeFiles/untitled.dir/flags.make
 
 CMakeFiles/untitled.dir/Source/main.cpp.obj: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/Source/main.cpp.obj: CMakeFiles/untitled.dir/includes_CXX.rsp
-CMakeFiles/untitled.dir/Source/main.cpp.obj: C:/Users/oriol/OneDrive/Escritorio/POO/Pràctiques/Practica3POO/ProgPrac2/Source/main.cpp
+CMakeFiles/untitled.dir/Source/main.cpp.obj: C:/Users/blaze/Documents/GitHub/ProgPrac2/Source/main.cpp
 CMakeFiles/untitled.dir/Source/main.cpp.obj: CMakeFiles/untitled.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\oriol\OneDrive\Escritorio\POO\Pràctiques\Practica3POO\ProgPrac2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled.dir/Source/main.cpp.obj"
-	"C:\PROGRA~1\JetBrains\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled.dir/Source/main.cpp.obj -MF CMakeFiles\untitled.dir\Source\main.cpp.obj.d -o CMakeFiles\untitled.dir\Source\main.cpp.obj -c C:\Users\oriol\OneDrive\Escritorio\POO\Pràctiques\Practica3POO\ProgPrac2\Source\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\blaze\Documents\GitHub\ProgPrac2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled.dir/Source/main.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled.dir/Source/main.cpp.obj -MF CMakeFiles\untitled.dir\Source\main.cpp.obj.d -o CMakeFiles\untitled.dir\Source\main.cpp.obj -c C:\Users\blaze\Documents\GitHub\ProgPrac2\Source\main.cpp
 
 CMakeFiles/untitled.dir/Source/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Source/main.cpp.i"
-	"C:\PROGRA~1\JetBrains\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oriol\OneDrive\Escritorio\POO\Pràctiques\Practica3POO\ProgPrac2\Source\main.cpp > CMakeFiles\untitled.dir\Source\main.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\blaze\Documents\GitHub\ProgPrac2\Source\main.cpp > CMakeFiles\untitled.dir\Source\main.cpp.i
 
 CMakeFiles/untitled.dir/Source/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Source/main.cpp.s"
-	"C:\PROGRA~1\JetBrains\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oriol\OneDrive\Escritorio\POO\Pràctiques\Practica3POO\ProgPrac2\Source\main.cpp -o CMakeFiles\untitled.dir\Source\main.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\blaze\Documents\GitHub\ProgPrac2\Source\main.cpp -o CMakeFiles\untitled.dir\Source\main.cpp.s
 
 CMakeFiles/untitled.dir/Source/src/Comodi.cpp.obj: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/Source/src/Comodi.cpp.obj: CMakeFiles/untitled.dir/includes_CXX.rsp
-CMakeFiles/untitled.dir/Source/src/Comodi.cpp.obj: C:/Users/oriol/OneDrive/Escritorio/POO/Pràctiques/Practica3POO/ProgPrac2/Source/src/Comodi.cpp
+CMakeFiles/untitled.dir/Source/src/Comodi.cpp.obj: C:/Users/blaze/Documents/GitHub/ProgPrac2/Source/src/Comodi.cpp
 CMakeFiles/untitled.dir/Source/src/Comodi.cpp.obj: CMakeFiles/untitled.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\oriol\OneDrive\Escritorio\POO\Pràctiques\Practica3POO\ProgPrac2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled.dir/Source/src/Comodi.cpp.obj"
-	"C:\PROGRA~1\JetBrains\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled.dir/Source/src/Comodi.cpp.obj -MF CMakeFiles\untitled.dir\Source\src\Comodi.cpp.obj.d -o CMakeFiles\untitled.dir\Source\src\Comodi.cpp.obj -c C:\Users\oriol\OneDrive\Escritorio\POO\Pràctiques\Practica3POO\ProgPrac2\Source\src\Comodi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\blaze\Documents\GitHub\ProgPrac2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled.dir/Source/src/Comodi.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled.dir/Source/src/Comodi.cpp.obj -MF CMakeFiles\untitled.dir\Source\src\Comodi.cpp.obj.d -o CMakeFiles\untitled.dir\Source\src\Comodi.cpp.obj -c C:\Users\blaze\Documents\GitHub\ProgPrac2\Source\src\Comodi.cpp
 
 CMakeFiles/untitled.dir/Source/src/Comodi.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Source/src/Comodi.cpp.i"
-	"C:\PROGRA~1\JetBrains\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oriol\OneDrive\Escritorio\POO\Pràctiques\Practica3POO\ProgPrac2\Source\src\Comodi.cpp > CMakeFiles\untitled.dir\Source\src\Comodi.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\blaze\Documents\GitHub\ProgPrac2\Source\src\Comodi.cpp > CMakeFiles\untitled.dir\Source\src\Comodi.cpp.i
 
 CMakeFiles/untitled.dir/Source/src/Comodi.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Source/src/Comodi.cpp.s"
-	"C:\PROGRA~1\JetBrains\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oriol\OneDrive\Escritorio\POO\Pràctiques\Practica3POO\ProgPrac2\Source\src\Comodi.cpp -o CMakeFiles\untitled.dir\Source\src\Comodi.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\blaze\Documents\GitHub\ProgPrac2\Source\src\Comodi.cpp -o CMakeFiles\untitled.dir\Source\src\Comodi.cpp.s
 
 CMakeFiles/untitled.dir/Source/src/Contenidor.cpp.obj: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/Source/src/Contenidor.cpp.obj: CMakeFiles/untitled.dir/includes_CXX.rsp
-CMakeFiles/untitled.dir/Source/src/Contenidor.cpp.obj: C:/Users/oriol/OneDrive/Escritorio/POO/Pràctiques/Practica3POO/ProgPrac2/Source/src/Contenidor.cpp
+CMakeFiles/untitled.dir/Source/src/Contenidor.cpp.obj: C:/Users/blaze/Documents/GitHub/ProgPrac2/Source/src/Contenidor.cpp
 CMakeFiles/untitled.dir/Source/src/Contenidor.cpp.obj: CMakeFiles/untitled.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\oriol\OneDrive\Escritorio\POO\Pràctiques\Practica3POO\ProgPrac2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/untitled.dir/Source/src/Contenidor.cpp.obj"
-	"C:\PROGRA~1\JetBrains\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled.dir/Source/src/Contenidor.cpp.obj -MF CMakeFiles\untitled.dir\Source\src\Contenidor.cpp.obj.d -o CMakeFiles\untitled.dir\Source\src\Contenidor.cpp.obj -c C:\Users\oriol\OneDrive\Escritorio\POO\Pràctiques\Practica3POO\ProgPrac2\Source\src\Contenidor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\blaze\Documents\GitHub\ProgPrac2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/untitled.dir/Source/src/Contenidor.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled.dir/Source/src/Contenidor.cpp.obj -MF CMakeFiles\untitled.dir\Source\src\Contenidor.cpp.obj.d -o CMakeFiles\untitled.dir\Source\src\Contenidor.cpp.obj -c C:\Users\blaze\Documents\GitHub\ProgPrac2\Source\src\Contenidor.cpp
 
 CMakeFiles/untitled.dir/Source/src/Contenidor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Source/src/Contenidor.cpp.i"
-	"C:\PROGRA~1\JetBrains\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oriol\OneDrive\Escritorio\POO\Pràctiques\Practica3POO\ProgPrac2\Source\src\Contenidor.cpp > CMakeFiles\untitled.dir\Source\src\Contenidor.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\blaze\Documents\GitHub\ProgPrac2\Source\src\Contenidor.cpp > CMakeFiles\untitled.dir\Source\src\Contenidor.cpp.i
 
 CMakeFiles/untitled.dir/Source/src/Contenidor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Source/src/Contenidor.cpp.s"
-	"C:\PROGRA~1\JetBrains\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oriol\OneDrive\Escritorio\POO\Pràctiques\Practica3POO\ProgPrac2\Source\src\Contenidor.cpp -o CMakeFiles\untitled.dir\Source\src\Contenidor.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\blaze\Documents\GitHub\ProgPrac2\Source\src\Contenidor.cpp -o CMakeFiles\untitled.dir\Source\src\Contenidor.cpp.s
 
 CMakeFiles/untitled.dir/Source/src/Element.cpp.obj: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/Source/src/Element.cpp.obj: CMakeFiles/untitled.dir/includes_CXX.rsp
-CMakeFiles/untitled.dir/Source/src/Element.cpp.obj: C:/Users/oriol/OneDrive/Escritorio/POO/Pràctiques/Practica3POO/ProgPrac2/Source/src/Element.cpp
+CMakeFiles/untitled.dir/Source/src/Element.cpp.obj: C:/Users/blaze/Documents/GitHub/ProgPrac2/Source/src/Element.cpp
 CMakeFiles/untitled.dir/Source/src/Element.cpp.obj: CMakeFiles/untitled.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\oriol\OneDrive\Escritorio\POO\Pràctiques\Practica3POO\ProgPrac2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/untitled.dir/Source/src/Element.cpp.obj"
-	"C:\PROGRA~1\JetBrains\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled.dir/Source/src/Element.cpp.obj -MF CMakeFiles\untitled.dir\Source\src\Element.cpp.obj.d -o CMakeFiles\untitled.dir\Source\src\Element.cpp.obj -c C:\Users\oriol\OneDrive\Escritorio\POO\Pràctiques\Practica3POO\ProgPrac2\Source\src\Element.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\blaze\Documents\GitHub\ProgPrac2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/untitled.dir/Source/src/Element.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled.dir/Source/src/Element.cpp.obj -MF CMakeFiles\untitled.dir\Source\src\Element.cpp.obj.d -o CMakeFiles\untitled.dir\Source\src\Element.cpp.obj -c C:\Users\blaze\Documents\GitHub\ProgPrac2\Source\src\Element.cpp
 
 CMakeFiles/untitled.dir/Source/src/Element.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Source/src/Element.cpp.i"
-	"C:\PROGRA~1\JetBrains\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oriol\OneDrive\Escritorio\POO\Pràctiques\Practica3POO\ProgPrac2\Source\src\Element.cpp > CMakeFiles\untitled.dir\Source\src\Element.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\blaze\Documents\GitHub\ProgPrac2\Source\src\Element.cpp > CMakeFiles\untitled.dir\Source\src\Element.cpp.i
 
 CMakeFiles/untitled.dir/Source/src/Element.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Source/src/Element.cpp.s"
-	"C:\PROGRA~1\JetBrains\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oriol\OneDrive\Escritorio\POO\Pràctiques\Practica3POO\ProgPrac2\Source\src\Element.cpp -o CMakeFiles\untitled.dir\Source\src\Element.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\blaze\Documents\GitHub\ProgPrac2\Source\src\Element.cpp -o CMakeFiles\untitled.dir\Source\src\Element.cpp.s
 
 CMakeFiles/untitled.dir/Source/src/Lletra.cpp.obj: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/Source/src/Lletra.cpp.obj: CMakeFiles/untitled.dir/includes_CXX.rsp
-CMakeFiles/untitled.dir/Source/src/Lletra.cpp.obj: C:/Users/oriol/OneDrive/Escritorio/POO/Pràctiques/Practica3POO/ProgPrac2/Source/src/Lletra.cpp
+CMakeFiles/untitled.dir/Source/src/Lletra.cpp.obj: C:/Users/blaze/Documents/GitHub/ProgPrac2/Source/src/Lletra.cpp
 CMakeFiles/untitled.dir/Source/src/Lletra.cpp.obj: CMakeFiles/untitled.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\oriol\OneDrive\Escritorio\POO\Pràctiques\Practica3POO\ProgPrac2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/untitled.dir/Source/src/Lletra.cpp.obj"
-	"C:\PROGRA~1\JetBrains\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled.dir/Source/src/Lletra.cpp.obj -MF CMakeFiles\untitled.dir\Source\src\Lletra.cpp.obj.d -o CMakeFiles\untitled.dir\Source\src\Lletra.cpp.obj -c C:\Users\oriol\OneDrive\Escritorio\POO\Pràctiques\Practica3POO\ProgPrac2\Source\src\Lletra.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\blaze\Documents\GitHub\ProgPrac2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/untitled.dir/Source/src/Lletra.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled.dir/Source/src/Lletra.cpp.obj -MF CMakeFiles\untitled.dir\Source\src\Lletra.cpp.obj.d -o CMakeFiles\untitled.dir\Source\src\Lletra.cpp.obj -c C:\Users\blaze\Documents\GitHub\ProgPrac2\Source\src\Lletra.cpp
 
 CMakeFiles/untitled.dir/Source/src/Lletra.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Source/src/Lletra.cpp.i"
-	"C:\PROGRA~1\JetBrains\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oriol\OneDrive\Escritorio\POO\Pràctiques\Practica3POO\ProgPrac2\Source\src\Lletra.cpp > CMakeFiles\untitled.dir\Source\src\Lletra.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\blaze\Documents\GitHub\ProgPrac2\Source\src\Lletra.cpp > CMakeFiles\untitled.dir\Source\src\Lletra.cpp.i
 
 CMakeFiles/untitled.dir/Source/src/Lletra.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Source/src/Lletra.cpp.s"
-	"C:\PROGRA~1\JetBrains\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oriol\OneDrive\Escritorio\POO\Pràctiques\Practica3POO\ProgPrac2\Source\src\Lletra.cpp -o CMakeFiles\untitled.dir\Source\src\Lletra.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\blaze\Documents\GitHub\ProgPrac2\Source\src\Lletra.cpp -o CMakeFiles\untitled.dir\Source\src\Lletra.cpp.s
 
 CMakeFiles/untitled.dir/Source/src/Seleccio.cpp.obj: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/Source/src/Seleccio.cpp.obj: CMakeFiles/untitled.dir/includes_CXX.rsp
-CMakeFiles/untitled.dir/Source/src/Seleccio.cpp.obj: C:/Users/oriol/OneDrive/Escritorio/POO/Pràctiques/Practica3POO/ProgPrac2/Source/src/Seleccio.cpp
+CMakeFiles/untitled.dir/Source/src/Seleccio.cpp.obj: C:/Users/blaze/Documents/GitHub/ProgPrac2/Source/src/Seleccio.cpp
 CMakeFiles/untitled.dir/Source/src/Seleccio.cpp.obj: CMakeFiles/untitled.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\oriol\OneDrive\Escritorio\POO\Pràctiques\Practica3POO\ProgPrac2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/untitled.dir/Source/src/Seleccio.cpp.obj"
-	"C:\PROGRA~1\JetBrains\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled.dir/Source/src/Seleccio.cpp.obj -MF CMakeFiles\untitled.dir\Source\src\Seleccio.cpp.obj.d -o CMakeFiles\untitled.dir\Source\src\Seleccio.cpp.obj -c C:\Users\oriol\OneDrive\Escritorio\POO\Pràctiques\Practica3POO\ProgPrac2\Source\src\Seleccio.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\blaze\Documents\GitHub\ProgPrac2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/untitled.dir/Source/src/Seleccio.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled.dir/Source/src/Seleccio.cpp.obj -MF CMakeFiles\untitled.dir\Source\src\Seleccio.cpp.obj.d -o CMakeFiles\untitled.dir\Source\src\Seleccio.cpp.obj -c C:\Users\blaze\Documents\GitHub\ProgPrac2\Source\src\Seleccio.cpp
 
 CMakeFiles/untitled.dir/Source/src/Seleccio.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Source/src/Seleccio.cpp.i"
-	"C:\PROGRA~1\JetBrains\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oriol\OneDrive\Escritorio\POO\Pràctiques\Practica3POO\ProgPrac2\Source\src\Seleccio.cpp > CMakeFiles\untitled.dir\Source\src\Seleccio.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\blaze\Documents\GitHub\ProgPrac2\Source\src\Seleccio.cpp > CMakeFiles\untitled.dir\Source\src\Seleccio.cpp.i
 
 CMakeFiles/untitled.dir/Source/src/Seleccio.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Source/src/Seleccio.cpp.s"
-	"C:\PROGRA~1\JetBrains\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oriol\OneDrive\Escritorio\POO\Pràctiques\Practica3POO\ProgPrac2\Source\src\Seleccio.cpp -o CMakeFiles\untitled.dir\Source\src\Seleccio.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\blaze\Documents\GitHub\ProgPrac2\Source\src\Seleccio.cpp -o CMakeFiles\untitled.dir\Source\src\Seleccio.cpp.s
 
 # Object files for target untitled
 untitled_OBJECTS = \
@@ -180,7 +180,7 @@ untitled.exe: CMakeFiles/untitled.dir/build.make
 untitled.exe: CMakeFiles/untitled.dir/linkLibs.rsp
 untitled.exe: CMakeFiles/untitled.dir/objects1.rsp
 untitled.exe: CMakeFiles/untitled.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\oriol\OneDrive\Escritorio\POO\Pràctiques\Practica3POO\ProgPrac2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable untitled.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\blaze\Documents\GitHub\ProgPrac2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable untitled.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\untitled.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -192,6 +192,6 @@ CMakeFiles/untitled.dir/clean:
 .PHONY : CMakeFiles/untitled.dir/clean
 
 CMakeFiles/untitled.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\oriol\OneDrive\Escritorio\POO\Pràctiques\Practica3POO\ProgPrac2 C:\Users\oriol\OneDrive\Escritorio\POO\Pràctiques\Practica3POO\ProgPrac2 C:\Users\oriol\OneDrive\Escritorio\POO\Pràctiques\Practica3POO\ProgPrac2\cmake-build-debug C:\Users\oriol\OneDrive\Escritorio\POO\Pràctiques\Practica3POO\ProgPrac2\cmake-build-debug C:\Users\oriol\OneDrive\Escritorio\POO\Pràctiques\Practica3POO\ProgPrac2\cmake-build-debug\CMakeFiles\untitled.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\blaze\Documents\GitHub\ProgPrac2 C:\Users\blaze\Documents\GitHub\ProgPrac2 C:\Users\blaze\Documents\GitHub\ProgPrac2\cmake-build-debug C:\Users\blaze\Documents\GitHub\ProgPrac2\cmake-build-debug C:\Users\blaze\Documents\GitHub\ProgPrac2\cmake-build-debug\CMakeFiles\untitled.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/untitled.dir/depend
 
