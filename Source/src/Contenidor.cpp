@@ -1,24 +1,32 @@
+#include <iostream>
+using namespace std;
 #include "Contenidor.h"
 
 Contenidor::Contenidor(int nRow, int nCol) {
     this->nRow = nRow;
     this->nCol = nCol;
-    this->array = new Element*[nRow];
-    for (int i = 0; i < nRow; i++) {
-        this->array[i] = new Element[nCol];
+    this->taula = new node*[6];
+}
+
+void Contenidor::afegirElement(Element * element, int posicio) {
+    if (this->taula[posicio]->continugt == nullptr){
+        this->taula[posicio]->continugt = element;
+    } else if (this->taula[posicio]->seguent->continugt == nullptr){
+        this->taula[posicio]->seguent->continugt = element;
+    } else if (this->taula[posicio]->seguent->seguent->continugt == nullptr){
+        this->taula[posicio]->seguent->seguent->continugt = element;
+    } else if (this->taula[posicio]->seguent->seguent->seguent->continugt == nullptr){
+        this->taula[posicio]->seguent->seguent->seguent->continugt = element;
     }
 }
 
-void Contenidor::afegirElement(Element *) {
-
-}
-
 Element *Contenidor::eliminarPerColumna(int col) {
-
+    this->taula[col]->seguent= nullptr;
+    this->taula[col]->continugt= nullptr;
 }
 
 Element *Contenidor::eliminarComodi() {
-    return nullptr;
+
 }
 
 int Contenidor::getQuants() {
@@ -26,7 +34,19 @@ int Contenidor::getQuants() {
 }
 
 void Contenidor::mostrar() {
-    
+    node* po = new node*[sizeof(taula)];
+    for (int x=0; x<2;x++){
+        for (int j=0; j< sizeof(taula); j++){
+
+        }
+        for (int i=0; i<sizeof(taula); i++){
+            if (this->taula[i]->continugt != nullptr){
+                cout << this->taula[i]->continugt->getSimbol();
+            }
+            cout << "   ";
+        }
+
+    }
 }
 
 
