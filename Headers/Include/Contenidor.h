@@ -11,7 +11,7 @@ private:
     node* *taula;
 public:
     Contenidor(int nRow, int nCol);
-    void afegirElement(Element * element, int posicio);
+    bool afegirElement(Element * element, int posicio);
     Element* eliminarPerColumna(int col);
     Element* eliminarComodi();
     int getQuants();

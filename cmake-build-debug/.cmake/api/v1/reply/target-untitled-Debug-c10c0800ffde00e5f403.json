@@ -2,7 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "untitled"
+			"path" : "untitled.exe"
+		},
+		{
+			"path" : "untitled.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -42,14 +45,14 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu++17 -arch x86_64 -fcolor-diagnostics"
+					"fragment" : "-g -fdiagnostics-color=always"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 2,
-					"path" : "/Users/bielmaltascastro/Documents/GitHub/ProgPrac2/Headers/Include"
+					"path" : "C:/Users/blaze/Documents/GitHub/ProgPrac2/Headers/Include"
 				}
 			],
 			"language" : "CXX",
@@ -84,12 +87,16 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
 	"name" : "untitled",
-	"nameOnDisk" : "untitled",
+	"nameOnDisk" : "untitled.exe",
 	"paths" : 
 	{
 		"build" : ".",
