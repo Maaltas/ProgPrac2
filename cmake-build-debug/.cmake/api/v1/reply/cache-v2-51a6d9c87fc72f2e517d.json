@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/blaze/Documents/GitHub/ProgPrac2/cmake-build-debug"
+			"value" : "c:/Users/oriol/OneDrive/Escritorio/POO/Pr\u00e0ctiques/Practica3POO/ProgPrac2/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -643,7 +643,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/blaze/Documents/GitHub/ProgPrac2/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/oriol/OneDrive/Escritorio/POO/Pr\u00e0ctiques/Practica3POO/ProgPrac2/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -715,7 +715,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/blaze/Documents/GitHub/ProgPrac2"
+			"value" : "C:/Users/oriol/OneDrive/Escritorio/POO/Pr\u00e0ctiques/Practica3POO/ProgPrac2"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -759,7 +759,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe"
+			"value" : "C:/PROGRA~1/JetBrains/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -1347,7 +1347,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/blaze/Documents/GitHub/ProgPrac2/cmake-build-debug"
+			"value" : "C:/Users/oriol/OneDrive/Escritorio/POO/Pr\u00e0ctiques/Practica3POO/ProgPrac2/cmake-build-debug"
 		},
 		{
 			"name" : "untitled_IS_TOP_LEVEL",
@@ -1371,7 +1371,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/blaze/Documents/GitHub/ProgPrac2"
+			"value" : "C:/Users/oriol/OneDrive/Escritorio/POO/Pr\u00e0ctiques/Practica3POO/ProgPrac2"
 		}
 	],
 	"kind" : "cache",

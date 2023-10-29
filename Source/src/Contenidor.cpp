@@ -42,7 +42,7 @@ Element *Contenidor::eliminarPerColumna(int col) {
     this->taula[col]->continugt = nullptr;
 }
 
-Element *Contenidor::eliminarComodi() {
+Element *Contenidor::eliminarComodi(int row, int col) {
 
 }
 
@@ -51,20 +51,25 @@ int Contenidor::getQuants() {
 }
 
 void Contenidor::mostrar() {
-    node *po = new node *[sizeof(taula)];
+    node **temp = new node*[nFiles];
     for (int x = 0; x < 2; x++) {
-        for (int j = 0; j < sizeof(taula); j++) {
-
+        if (x!=0){
+            for (int j = 0; j < sizeof(taula); j++) {
+                temp[j] = this->taula[j]->seguent;
+            }
+        } else {
+            for (int k=0; k< sizeof(taula); k++){
+                temp[k] = this->taula[k];
+            }
         }
         for (int i = 0; i < sizeof(taula); i++) {
-            if (this->taula[i]->continugt != nullptr) {
-                cout << this->taula[i]->continugt->getSimbol();
+            if (temp[i]->continugt != nullptr) {
+                cout << temp[i]->continugt->getSimbol();
             }
             cout << "   ";
         }
 
     }
 }
-
 
 

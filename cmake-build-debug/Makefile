@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\blaze\Documents\GitHub\ProgPrac2
+CMAKE_SOURCE_DIR = C:\Users\oriol\OneDrive\Escritorio\POO\Pràctiques\Practica3POO\ProgPrac2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\blaze\Documents\GitHub\ProgPrac2\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\oriol\OneDrive\Escritorio\POO\Pràctiques\Practica3POO\ProgPrac2\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\blaze\Documents\GitHub\ProgPrac2\cmake-build-debug\CMakeFiles C:\Users\blaze\Documents\GitHub\ProgPrac2\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\oriol\OneDrive\Escritorio\POO\Pràctiques\Practica3POO\ProgPrac2\cmake-build-debug\CMakeFiles C:\Users\oriol\OneDrive\Escritorio\POO\Pràctiques\Practica3POO\ProgPrac2\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\blaze\Documents\GitHub\ProgPrac2\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\oriol\OneDrive\Escritorio\POO\Pràctiques\Practica3POO\ProgPrac2\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -152,30 +152,6 @@ Source/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Source/main.cpp.s
 .PHONY : Source/main.cpp.s
 
-Source/src/Comodi.obj: Source/src/Comodi.cpp.obj
-.PHONY : Source/src/Comodi.obj
-
-# target to build an object file
-Source/src/Comodi.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Source/src/Comodi.cpp.obj
-.PHONY : Source/src/Comodi.cpp.obj
-
-Source/src/Comodi.i: Source/src/Comodi.cpp.i
-.PHONY : Source/src/Comodi.i
-
-# target to preprocess a source file
-Source/src/Comodi.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Source/src/Comodi.cpp.i
-.PHONY : Source/src/Comodi.cpp.i
-
-Source/src/Comodi.s: Source/src/Comodi.cpp.s
-.PHONY : Source/src/Comodi.s
-
-# target to generate assembly for a file
-Source/src/Comodi.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Source/src/Comodi.cpp.s
-.PHONY : Source/src/Comodi.cpp.s
-
 Source/src/Contenidor.obj: Source/src/Contenidor.cpp.obj
 .PHONY : Source/src/Contenidor.obj
 
@@ -224,30 +200,6 @@ Source/src/Element.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Source/src/Element.cpp.s
 .PHONY : Source/src/Element.cpp.s
 
-Source/src/Lletra.obj: Source/src/Lletra.cpp.obj
-.PHONY : Source/src/Lletra.obj
-
-# target to build an object file
-Source/src/Lletra.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Source/src/Lletra.cpp.obj
-.PHONY : Source/src/Lletra.cpp.obj
-
-Source/src/Lletra.i: Source/src/Lletra.cpp.i
-.PHONY : Source/src/Lletra.i
-
-# target to preprocess a source file
-Source/src/Lletra.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Source/src/Lletra.cpp.i
-.PHONY : Source/src/Lletra.cpp.i
-
-Source/src/Lletra.s: Source/src/Lletra.cpp.s
-.PHONY : Source/src/Lletra.s
-
-# target to generate assembly for a file
-Source/src/Lletra.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Source/src/Lletra.cpp.s
-.PHONY : Source/src/Lletra.cpp.s
-
 Source/src/Seleccio.obj: Source/src/Seleccio.cpp.obj
 .PHONY : Source/src/Seleccio.obj
 
@@ -284,18 +236,12 @@ help:
 	@echo ... Source/main.obj
 	@echo ... Source/main.i
 	@echo ... Source/main.s
-	@echo ... Source/src/Comodi.obj
-	@echo ... Source/src/Comodi.i
-	@echo ... Source/src/Comodi.s
 	@echo ... Source/src/Contenidor.obj
 	@echo ... Source/src/Contenidor.i
 	@echo ... Source/src/Contenidor.s
 	@echo ... Source/src/Element.obj
 	@echo ... Source/src/Element.i
 	@echo ... Source/src/Element.s
-	@echo ... Source/src/Lletra.obj
-	@echo ... Source/src/Lletra.i
-	@echo ... Source/src/Lletra.s
 	@echo ... Source/src/Seleccio.obj
 	@echo ... Source/src/Seleccio.i
 	@echo ... Source/src/Seleccio.s

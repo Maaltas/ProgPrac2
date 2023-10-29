@@ -18,7 +18,7 @@ public:
 
     Element *eliminarPerColumna(int col);
 
-    Element *eliminarComodi();
+    Element *eliminarComodi(int row, int col);
 
     int getQuants();
 
