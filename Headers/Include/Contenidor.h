@@ -6,6 +6,7 @@
 class Contenidor {
 private:
     int nFiles;
+    int nCol;
     struct node {
         Element *continugt;
         node *seguent;

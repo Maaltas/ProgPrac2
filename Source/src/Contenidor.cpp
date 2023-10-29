@@ -7,6 +7,7 @@ using namespace std;
 Contenidor::Contenidor(int nRow, int nCol) {
     this->taula = new node *[nCol];
     this->nFiles = nRow;
+    this->nCol = nCol;
     for (int i = 0; i < nCol; i++) {
         if (!afegirElement(new Element, i)) { // si no s'ha pogut afegir l'element, seguent columna
             break;
@@ -43,11 +44,17 @@ Element *Contenidor::eliminarPerColumna(int col) {
 }
 
 Element *Contenidor::eliminarComodi(int row, int col) {
-
+    if (this->taula[row]->continugt->getSimbol()=='*'){
+        this->taula[row]->continugt = nullptr;
+    } else if (this->taula[row]->seguent->continugt->getSimbol() == '*'){
+        this->taula[row]->seguent->continugt = nullptr;
+    } else {
+        this->taula[row]->seguent->seguent->continugt = nullptr;
+    }
 }
 
 int Contenidor::getQuants() {
-    return 0;
+    return nFiles*nCol;
 }
 
 void Contenidor::mostrar() {
