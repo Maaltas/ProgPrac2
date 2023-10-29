@@ -6,17 +6,16 @@ using namespace std;
 
 Contenidor::Contenidor(int nRow, int nCol) {
     this->taula = new node *[nCol];
+    this->nFiles = nRow;
     for (int i = 0; i < nCol; i++) {
-        for (int j = 0; j < nRow; j++){
-            if (!afegirElement(new Element, i)){ // si no s'ha pogut afegir l'element, seguent columna
-                break;
-            }
+        if (!afegirElement(new Element, i)) { // si no s'ha pogut afegir l'element, seguent columna
+            break;
         }
     }
 }
 
 bool Contenidor::afegirElement(Element *element, int posicio) {
-    if (this->taula[posicio]->continugt == nullptr) {
+    /*if (this->taula[posicio]->continugt == nullptr) {
         this->taula[posicio]->continugt = element;
     } else if (this->taula[posicio]->seguent->continugt == nullptr) {
         this->taula[posicio]->seguent->continugt = element;
@@ -24,11 +23,11 @@ bool Contenidor::afegirElement(Element *element, int posicio) {
         this->taula[posicio]->seguent->seguent->continugt = element;
     } else if (this->taula[posicio]->seguent->seguent->seguent->continugt == nullptr) {
         this->taula[posicio]->seguent->seguent->seguent->continugt = element;
-    }
+    }*/
 
     // fer el mateix amb un bucle
     node *posicioActual = this->taula[posicio];
-    while (posicioActual->continugt != element) { // diria que aquesta lògica fa que no puguin haver 2 elements iguals ???
+    for (int i = 0; i < nFiles; i++) {
         if (posicioActual->continugt == nullptr) {
             posicioActual->continugt = element;
             return true;

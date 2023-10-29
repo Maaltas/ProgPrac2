@@ -1,20 +1,27 @@
 #include "Element.h"
+
 #ifndef UNTITLED_CONTENIDOR_H
 #define UNTITLED_CONTENIDOR_H
 
-class Contenidor{
+class Contenidor {
 private:
-    struct node{
+    int nFiles;
+    struct node {
         Element *continugt;
         node *seguent;
     };
-    node* *taula;
+    node **taula;
 public:
     Contenidor(int nRow, int nCol);
-    bool afegirElement(Element * element, int posicio);
-    Element* eliminarPerColumna(int col);
-    Element* eliminarComodi();
+
+    bool afegirElement(Element *element, int posicio);
+
+    Element *eliminarPerColumna(int col);
+
+    Element *eliminarComodi();
+
     int getQuants();
+
     void mostrar();
 };
 

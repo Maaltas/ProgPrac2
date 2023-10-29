@@ -2,7 +2,6 @@
 
 using namespace std;
 
-#include "Lletra.h"
 #include "Contenidor.h"
 #include "Seleccio.h"
 

@@ -6,8 +6,6 @@ include_directories(Headers/Include)
 
 add_executable(untitled
         Source/main.cpp
-        Source/src/Comodi.cpp
         Source/src/Contenidor.cpp
         Source/src/Element.cpp
-        Source/src/Lletra.cpp
         Source/src/Seleccio.cpp)
