@@ -1,4 +1,5 @@
 #include <cctype>
+#include <iostream>
 #include "Element.h"
 
 using namespace std;
@@ -12,7 +13,7 @@ char Element::getSimbol() {
 }
 
 int Element::getPremi() {
-    return 0;
+    cout << "Enhorabona has guanyat!";
 }
 
 bool Element::operator==(Element *other) {
