@@ -19,7 +19,7 @@ public:
 
     void eliminarPerColumna(int col);
 
-    void eliminarComodi(int row, int col);
+    void eliminarComodi();
 
     int getQuants();
 

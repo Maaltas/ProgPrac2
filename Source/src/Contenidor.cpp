@@ -1,4 +1,5 @@
 #include <iostream>
+#include <random>
 
 using namespace std;
 
@@ -11,7 +12,10 @@ Contenidor::Contenidor(int nRow, int nCol) {
     this->nCol = nCol;
     for (int i = 0; i < nCol; i++) {
         this->taula[i] = new node();
-        int random = rand() % 5;
+        std::random_device rd;
+        std::mt19937 gen(rd());
+        std::uniform_int_distribution<> dis(0, 4);
+        int random = dis(gen);
         Element *element;
         if (random == 4) {
             element = new Comodi();
@@ -26,13 +30,16 @@ Contenidor::Contenidor(int nRow, int nCol) {
 
 bool Contenidor::afegirElement(Element *element, int posicio) {
     node *posicioActual = this->taula[posicio];
-    if (posicioActual == nullptr){return false;}
+
+    if (posicioActual == nullptr) {
+        return false;
+    }
     for (int i = 0; i < nFiles; i++) {
         if (posicioActual->continugt == nullptr) {
             posicioActual->continugt = element;
             return true;
-        }
-        posicioActual = posicioActual->seguent;
+        } else
+            posicioActual = posicioActual->seguent;
     }
     return false;
 }
@@ -43,22 +50,16 @@ void Contenidor::eliminarPerColumna(int col) {
     this->taula[col]->continugt = nullptr;
 }
 
-void Contenidor::eliminarComodi(int row, int col) {
-    /*if (this->taula[row]->continugt->getSimbol() == '*') {
-        this->taula[row]->continugt = nullptr;
-    } else if (this->taula[row]->seguent->continugt->getSimbol() == '*') {
-        this->taula[row]->seguent->continugt = nullptr;
-    } else {
-        this->taula[row]->seguent->seguent->continugt = nullptr;
-    } */
-
-    node *posicioActual = this->taula[col];
-    for (int i = 0; i < nFiles; i++) {
-        if (posicioActual->continugt->getSimbol() == '*') {
-            posicioActual->continugt = nullptr;
-            break;
+void Contenidor::eliminarComodi() {
+    for (int k = 0; k < nCol; k++) {
+        node *posicioActual = this->taula[k];
+        for (int i = 0; i < nFiles; i++) {
+            if (posicioActual->continugt->getSimbol() == '*') {
+                posicioActual->continugt = nullptr;
+                break;
+            }
+            posicioActual = posicioActual->seguent;
         }
-        posicioActual = posicioActual->seguent;
     }
 }
 
@@ -77,27 +78,26 @@ int Contenidor::getQuants() {
 }
 
 
-
 void Contenidor::mostrar() {
     node **temp = new node *[nFiles];
-    int cont=0;
-    for (int i=0; i<nCol; i++){
-        cout<<i+1<<"           ";
-        temp[i]=taula[i];
+    int cont = 0;
+    for (int i = 0; i < nCol; i++) {
+        cout << i + 1 << "\t";
+        temp[i] = taula[i];
     }
-    cout<<"\n";
-    for (int j=0;j<nFiles; j++){
-        for (int k=0; k<nCol; k++){
-            if (temp[j]!= nullptr){
-                cout<<temp[j]->continugt->getSimbol()<<"           ";
+    cout << "\n";
+    for (int j = 0; j < nFiles; j++) {
+        for (int k = 0; k < nCol; k++) {
+            if (temp[j] != nullptr) {
+                cout << temp[j]->continugt->getSimbol() << "\t";
             } else {
-                cout<<"           ";
-                temp[j]=temp[j]->seguent;
+                cout << "\t";
+                temp[j] = temp[j]->seguent;
             }
         }
-        cout<<"\n";
+        cout << "\n";
     }
-    cout<<"\n";
+    cout << "\n";
 }
 
 

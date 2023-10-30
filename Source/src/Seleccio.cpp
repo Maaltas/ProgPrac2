@@ -11,14 +11,13 @@ Seleccio::Seleccio() {
 }
 
 bool Seleccio::afegir(Element *element) {
-    if (array[5] != nullptr)
-        return false;
     for (Element *& i: array) {
         if (i == nullptr) {
             i = element;
-            break;
+            return true;
         }
     }
+    return false;
 }
 
 
@@ -84,11 +83,8 @@ int Seleccio::getPremiFinal() {
 
 void Seleccio::mostrar() {
     for (auto &i: array) {
-        for (int j = 0; j < 6; j++){
             if (i == nullptr)
                 cout << "_ ";
-            //cout << i->getSimbol() << " ";
-        }
     }
     cout << endl;
 }

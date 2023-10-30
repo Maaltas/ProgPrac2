@@ -44,4 +44,11 @@ int main() {
     cout<<"\n";
     cout << "Especifica una columna dins de l'interval [1," << nCol << "] o 0 per seleccionar l'asterisc" << endl;
     cin >> columna;
+    if (columna == 0)
+        contenidor->eliminarComodi();
+    else {
+        cout << "Especifica una fila dins de l'interval [1," << nRow << "]" << endl;
+        cin >> fila;
+
+    }
 }
