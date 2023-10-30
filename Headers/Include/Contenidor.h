@@ -17,9 +17,9 @@ public:
 
     bool afegirElement(Element *element, int posicio);
 
-    Element *eliminarPerColumna(int col);
+    void eliminarPerColumna(int col);
 
-    Element *eliminarComodi(int row, int col);
+    void eliminarComodi(int row, int col);
 
     int getQuants();
 

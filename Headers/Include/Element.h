@@ -4,6 +4,7 @@
 class Element {
 private:
     char simbol;
+    const int premi = 12;
 public:
     Element();
 
@@ -30,8 +31,6 @@ public:
 class Comodi : public Element {
     public:
     Comodi();
-
-    int getPremi();
 };
 
 #endif

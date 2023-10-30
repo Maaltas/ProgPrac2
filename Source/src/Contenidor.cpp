@@ -10,6 +10,7 @@ Contenidor::Contenidor(int nRow, int nCol) {
     this->nFiles = nRow;
     this->nCol = nCol;
     for (int i = 0; i < nCol; i++) {
+        this->taula[i] = new node();
         int random = rand() % 5;
         Element *element;
         if (random == 4) {
@@ -25,6 +26,7 @@ Contenidor::Contenidor(int nRow, int nCol) {
 
 bool Contenidor::afegirElement(Element *element, int posicio) {
     node *posicioActual = this->taula[posicio];
+    if (posicioActual == nullptr){return false;}
     for (int i = 0; i < nFiles; i++) {
         if (posicioActual->continugt == nullptr) {
             posicioActual->continugt = element;
@@ -35,12 +37,13 @@ bool Contenidor::afegirElement(Element *element, int posicio) {
     return false;
 }
 
-Element *Contenidor::eliminarPerColumna(int col) {
+
+void Contenidor::eliminarPerColumna(int col) {
     this->taula[col]->seguent = nullptr;
     this->taula[col]->continugt = nullptr;
 }
 
-Element *Contenidor::eliminarComodi(int row, int col) {
+void Contenidor::eliminarComodi(int row, int col) {
     /*if (this->taula[row]->continugt->getSimbol() == '*') {
         this->taula[row]->continugt = nullptr;
     } else if (this->taula[row]->seguent->continugt->getSimbol() == '*') {
@@ -73,26 +76,28 @@ int Contenidor::getQuants() {
     return count;
 }
 
+
+
 void Contenidor::mostrar() {
     node **temp = new node *[nFiles];
-    for (int x = 0; x < 2; x++) {
-        if (x != 0) {
-            for (int j = 0; j < sizeof(taula); j++) {
-                temp[j] = this->taula[j]->seguent;
-            }
-        } else {
-            for (int k = 0; k < sizeof(taula); k++) {
-                temp[k] = this->taula[k];
-            }
-        }
-        for (int i = 0; i < sizeof(taula); i++) {
-            if (temp[i]->continugt != nullptr) {
-                cout << temp[i]->continugt->getSimbol();
-            }
-            cout << "   ";
-        }
-
+    int cont=0;
+    for (int i=0; i<nCol; i++){
+        cout<<i+1<<"           ";
+        temp[i]=taula[i];
     }
+    cout<<"\n";
+    for (int j=0;j<nFiles; j++){
+        for (int k=0; k<nCol; k++){
+            if (temp[j]!= nullptr){
+                cout<<temp[j]->continugt->getSimbol()<<"           ";
+            } else {
+                cout<<"           ";
+                temp[j]=temp[j]->seguent;
+            }
+        }
+        cout<<"\n";
+    }
+    cout<<"\n";
 }
 
 

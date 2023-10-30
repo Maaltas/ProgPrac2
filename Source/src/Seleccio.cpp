@@ -11,16 +11,16 @@ Seleccio::Seleccio() {
 }
 
 bool Seleccio::afegir(Element *element) {
-    if (*array[5] != nullptr)
+    if (array[5] != nullptr)
         return false;
-    for (auto &i: array) {
-        if (*i == nullptr) {
-            *i = *element;
+    for (Element *& i: array) {
+        if (i == nullptr) {
+            i = element;
             break;
         }
     }
-    return true;
 }
+
 
 bool Seleccio::eliminar3iguals() {
     int countA = 0, countB = 0, countC = 0, countD = 0;
@@ -87,7 +87,7 @@ void Seleccio::mostrar() {
         for (int j = 0; j < 6; j++){
             if (i == nullptr)
                 cout << "_ ";
-            cout << i->getSimbol() << " ";
+            //cout << i->getSimbol() << " ";
         }
     }
     cout << endl;

@@ -13,7 +13,7 @@ char Element::getSimbol() {
 }
 
 int Element::getPremi() {
-    cout << "Enhorabona has guanyat!";
+    return premi;
 }
 
 bool Element::operator==(Element *other) {

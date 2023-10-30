@@ -12,9 +12,9 @@ int main() {
     int nCol, nRow, columna, fila;
     do {
         cout << "Escull el nivell de dificultat" << endl;
-        cout << "1. Fàcil" << endl;
-        cout << "2. Mitjà" << endl;
-        cout << "3. Difícil" << endl;
+        cout << "1. Facil" << endl;
+        cout << "2. Mitja" << endl;
+        cout << "3. Dificil" << endl;
         cin >> dificultat;
 
         switch (dificultat) {
@@ -41,7 +41,7 @@ int main() {
     selector->mostrar();
     cout << "Lletres disponibles:\n";
     contenidor->mostrar();
-
+    cout<<"\n";
     cout << "Especifica una columna dins de l'interval [1," << nCol << "] o 0 per seleccionar l'asterisc" << endl;
     cin >> columna;
 }
