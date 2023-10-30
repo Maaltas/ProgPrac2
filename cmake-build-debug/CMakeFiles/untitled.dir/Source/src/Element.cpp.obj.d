@@ -1,5 +1,5 @@
 CMakeFiles/untitled.dir/Source/src/Element.cpp.obj: \
- C:\Users\blaze\Documents\GitHub\ProgPrac2\Source\src\Element.cpp \
+ C:\Users\oriol\OneDrive\Escritorio\Github\ProgPrac2\Source\src\Element.cpp \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cctype \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
@@ -142,4 +142,4 @@ CMakeFiles/untitled.dir/Source/src/Element.cpp.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
- C:/Users/blaze/Documents/GitHub/ProgPrac2/Headers/Include/Element.h
+ C:/Users/oriol/OneDrive/Escritorio/Github/ProgPrac2/Headers/Include/Element.h

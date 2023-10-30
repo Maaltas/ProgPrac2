@@ -8,14 +8,20 @@ private:
     int nFiles;
     int nCol;
     struct node {
-        Element *continugt;
+        Element *contingut;
         node *seguent;
     };
     node **taula;
+    void inicialitzarTaula(){
+        for (int i=0; i<nCol;i++){
+            this->taula[i] = new node();
+        }
+    }
 public:
     Contenidor(int nRow, int nCol);
 
-    bool afegirElement(Element *element, int posicio);
+    //bool afegirElement(Element *element, int posicio);
+    bool afegirElement(Element* element, int posicio);
 
     void eliminarPerColumna(int col);
 

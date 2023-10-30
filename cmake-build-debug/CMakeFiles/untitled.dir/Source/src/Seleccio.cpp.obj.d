@@ -1,6 +1,6 @@
 CMakeFiles/untitled.dir/Source/src/Seleccio.cpp.obj: \
- C:\Users\blaze\Documents\GitHub\ProgPrac2\Source\src\Seleccio.cpp \
- C:/Users/blaze/Documents/GitHub/ProgPrac2/Headers/Include/Seleccio.h \
+ C:\Users\oriol\OneDrive\Escritorio\Github\ProgPrac2\Source\src\Seleccio.cpp \
+ C:/Users/oriol/OneDrive/Escritorio/Github/ProgPrac2/Headers/Include/Seleccio.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/memory \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memoryfwd.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -107,7 +107,7 @@ CMakeFiles/untitled.dir/Source/src/Seleccio.cpp.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward/auto_ptr.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_memory_defs.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/execution_defs.h \
- C:/Users/blaze/Documents/GitHub/ProgPrac2/Headers/Include/Element.h \
+ C:/Users/oriol/OneDrive/Escritorio/Github/ProgPrac2/Headers/Include/Element.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios \
