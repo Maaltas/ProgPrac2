@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\Contenidor.cpp.dir/objects.a
-"C:\PROGRA~1\JetBrains\CLion 2023.2.2\bin\mingw\bin\ar.exe" qc CMakeFiles\Contenidor.cpp.dir/objects.a @CMakeFiles\Contenidor.cpp.dir\objects1.rsp
-"C:\PROGRA~1\JetBrains\CLion 2023.2.2\bin\mingw\bin\g++.exe" -g -Wl,--whole-archive CMakeFiles\Contenidor.cpp.dir/objects.a -Wl,--no-whole-archive -o Contenidor.cpp.exe -Wl,--out-implib,libContenidor.cpp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Contenidor.cpp.dir\linkLibs.rsp
