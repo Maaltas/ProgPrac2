@@ -20,10 +20,9 @@ private:
 public:
     Contenidor(int nRow, int nCol);
 
-    //bool afegirElement(Element *element, int posicio);
     bool afegirElement(Element* element, int posicio);
 
-    void eliminarPerColumna(int col);
+    Element* eliminarPerColumna(int col);
 
     void eliminarComodi();
 

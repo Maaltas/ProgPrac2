@@ -23,42 +23,42 @@ bool Seleccio::afegir(Element *element) {
 
 bool Seleccio::eliminar3iguals() {
     int countA = 0, countB = 0, countC = 0, countD = 0;
-    for (auto &i: array) {
-        if (*i == nullptr)
+    for (Element  *i: array) {
+        if (*i == nullptr){
             break;
-        if (i->getSimbol() == 'A') {
+        }else if (i->getSimbol() == 'A') {
             if (countA >= 3) {
                 eliminarSimbol('A');
-                break;
+                premiFinal += i->getPremi() * 3;
             }
             countA++;
-        }
-        if (i->getSimbol() == 'B') {
+        }else if (i->getSimbol() == 'B') {
             if (countB >= 3) {
                 eliminarSimbol('B');
-                break;
+                premiFinal += i->getPremi() * 3;
             }
             countB++;
-        }
-        if (i->getSimbol() == 'C') {
+        }else if (i->getSimbol() == 'C') {
             if (countC >= 3) {
                 eliminarSimbol('C');
-                break;
+                premiFinal += i->getPremi() * 3;
             }
             countC++;
         }
-        if (i->getSimbol() == 'D') {
+        else if (i->getSimbol() == 'D') {
             if (countD >= 3) {
                 eliminarSimbol('D');
-                break;
+                premiFinal += i->getPremi() * 3;
             }
             countD++;
         }
-        if (i->getSimbol() == '*') {
+        else if (i->getSimbol() == '*') {
             countA++;
             countB++;
             countC++;
             countD++;
+            if(premiFinal >= 50)
+                premiFinal -= 50;
         }
     }
     return false;
@@ -69,7 +69,6 @@ void Seleccio::eliminarSimbol(char simbol) {
         if (*i == nullptr)
             break;
         if (i->getSimbol() == simbol) {
-            premiFinal += i->getPremi();
             delete i;
             i = nullptr;
             break;
@@ -83,8 +82,8 @@ int Seleccio::getPremiFinal() {
 
 void Seleccio::mostrar() {
     for (auto &i: array) {
-            if (i == nullptr)
-                cout << "_ ";
+        if (i == nullptr){cout << "_ ";}
+        else{cout << i->getSimbol() << " ";}
     }
     cout << endl;
 }

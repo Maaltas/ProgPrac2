@@ -4,7 +4,7 @@
 class Element {
 private:
     char simbol;
-    const int premi = 12;
+    const int premi = 0;
 public:
     Element();
 

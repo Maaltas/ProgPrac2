@@ -13,14 +13,14 @@ Contenidor::Contenidor(int nRow, int nCol) {
     random_device rd;
     mt19937 gen(rd());
     uniform_int_distribution<> dis(0, 4);
-    for (int i = 0; i < this->nCol; i++) {
-        for (int j = 0; j<this->nFiles; j++){
+    for (int i = 0; i < this->nFiles; i++) {
+        for (int j = 0; j<this->nCol; j++){
             random = dis(gen);
             Element *element;
             if (random == 4) {
                 element = new Comodi();
             } else {
-                element = new Lletra(25, 'A' + random);
+                element = new Lletra(50, 'A' + random);
             }
             if (!afegirElement(element, j)) {
                 break;
@@ -52,22 +52,32 @@ bool Contenidor::afegirElement(Element* element, int posicio) {
 }
 
 
-void Contenidor::eliminarPerColumna(int col) {
-    this->taula[col]->seguent = nullptr;
-    this->taula[col]->contingut = nullptr;
+Element* Contenidor::eliminarPerColumna(int col) {
+    if (col >= 0 && col < this->nCol) {
+        if (this->taula[col]->contingut->getSimbol() == '*'){
+            eliminarComodi();
+            return nullptr;
+        } else {
+            Element *element = this->taula[col]->contingut;
+            this->taula[col] = this->taula[col]->seguent;
+            return element;
+        }
+
+    } else {
+        throw runtime_error ("La columna no existeix o esta fora del limit");
+    }
 }
 
 void Contenidor::eliminarComodi() {
-    for (int k = 0; k < nCol; k++) {
-        node *posicioActual = this->taula[k];
-        for (int i = 0; i < nFiles; i++) {
-            if (posicioActual->contingut->getSimbol() == '*') {
-                posicioActual->contingut = nullptr;
-                break;
-            }
-            posicioActual = posicioActual->seguent;
+    for (int i = 0; i < nCol; i++) {
+        if (this->taula[i]->contingut->getSimbol()=='*'){
+            node* temp = this->taula[i];
+            this->taula[i] = this->taula[i]->seguent;
+            delete temp;
+            return;
         }
     }
+    throw runtime_error ("Ho sento pero no hi ha cap comodí torna a intentar jugar");
 }
 
 int Contenidor::getQuants() {
@@ -83,8 +93,9 @@ int Contenidor::getQuants() {
     }
     return count;
 }
+
 void Contenidor::mostrar() {
-    node **temp = new node *[nFiles];
+    node **temp = new node *[nCol];
     int cont = 0;
     for (int i = 0; i < nCol; i++) {
         cout << i + 1 << "\t";
@@ -93,16 +104,18 @@ void Contenidor::mostrar() {
     cout << "\n";
     for (int j = 0; j < nFiles; j++) {
         for (int k = 0; k < nCol; k++) {
-            if (temp[j] != nullptr) {
-                cout << temp[j]->contingut->getSimbol() << "\t";
+            if (temp[k] != nullptr) {
+                cout << temp[k]->contingut->getSimbol() << "\t";
+                temp[k] = temp[k]->seguent;
             } else {
-                cout << "\n";
+                cout << "        ";
             }
-            temp[j] = temp[j]->seguent;
+
         }
         cout << "\n";
     }
     cout << "\n";
 }
+
 
 
