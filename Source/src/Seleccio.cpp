@@ -84,9 +84,11 @@ int Seleccio::getPremiFinal() {
 
 void Seleccio::mostrar() {
     for (auto &i: array) {
-        if (*i == nullptr)
-            cout << "_" << " ";
-        cout << i->getSimbol() << " ";
+        for (int j = 0; j < 6; j++){
+            if (i == nullptr)
+                cout << "_ ";
+            cout << i->getSimbol() << " ";
+        }
     }
     cout << endl;
 }

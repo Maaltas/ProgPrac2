@@ -18,4 +18,20 @@ public:
     bool operator!=(Element *other);
 };
 
+class Lletra : public Element {
+private:
+    int premi;
+public:
+    Lletra(int premi, char simbol);
+
+    int getPremi();
+};
+
+class Comodi : public Element {
+    public:
+    Comodi();
+
+    int getPremi();
+};
+
 #endif
