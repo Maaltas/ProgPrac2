@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "untitled.exe"
+			"path" : "untilted.exe"
 		},
 		{
-			"path" : "untitled.pdb"
+			"path" : "untilted.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -52,7 +52,7 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "C:/Users/blaze/Documents/GitHub/ProgPrac2/Headers/Include"
+					"path" : "C:/Users/oriol/OneDrive/Escritorio/POO/Pr\u00e0ctiques/Practica3POO/ProgPrac2/Headers/Include"
 				}
 			],
 			"language" : "CXX",
@@ -73,7 +73,7 @@
 			]
 		}
 	],
-	"id" : "untitled::@6890427a1f51a3e7e1df",
+	"id" : "untilted::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -93,8 +93,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "untitled",
-	"nameOnDisk" : "untitled.exe",
+	"name" : "untilted",
+	"nameOnDisk" : "untilted.exe",
 	"paths" : 
 	{
 		"build" : ".",

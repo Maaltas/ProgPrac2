@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\blaze\Documents\GitHub\ProgPrac2
+CMAKE_SOURCE_DIR = C:\Users\oriol\OneDrive\Escritorio\POO\Pràctiques\Practica3POO\ProgPrac2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\blaze\Documents\GitHub\ProgPrac2\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\oriol\OneDrive\Escritorio\POO\Pràctiques\Practica3POO\ProgPrac2\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\blaze\Documents\GitHub\ProgPrac2\cmake-build-debug\CMakeFiles C:\Users\blaze\Documents\GitHub\ProgPrac2\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\oriol\OneDrive\Escritorio\POO\Pràctiques\Practica3POO\ProgPrac2\cmake-build-debug\CMakeFiles C:\Users\oriol\OneDrive\Escritorio\POO\Pràctiques\Practica3POO\ProgPrac2\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\blaze\Documents\GitHub\ProgPrac2\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\oriol\OneDrive\Escritorio\POO\Pràctiques\Practica3POO\ProgPrac2\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -116,24 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named untitled
+# Target rules for targets named untilted
 
 # Build rule for target.
-untitled: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 untitled
-.PHONY : untitled
+untilted: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 untilted
+.PHONY : untilted
 
 # fast build rule for target.
-untitled/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/build
-.PHONY : untitled/fast
+untilted/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untilted.dir\build.make CMakeFiles/untilted.dir/build
+.PHONY : untilted/fast
 
 Source/main.obj: Source/main.cpp.obj
 .PHONY : Source/main.obj
 
 # target to build an object file
 Source/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Source/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untilted.dir\build.make CMakeFiles/untilted.dir/Source/main.cpp.obj
 .PHONY : Source/main.cpp.obj
 
 Source/main.i: Source/main.cpp.i
@@ -141,7 +141,7 @@ Source/main.i: Source/main.cpp.i
 
 # target to preprocess a source file
 Source/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Source/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untilted.dir\build.make CMakeFiles/untilted.dir/Source/main.cpp.i
 .PHONY : Source/main.cpp.i
 
 Source/main.s: Source/main.cpp.s
@@ -149,7 +149,7 @@ Source/main.s: Source/main.cpp.s
 
 # target to generate assembly for a file
 Source/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Source/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untilted.dir\build.make CMakeFiles/untilted.dir/Source/main.cpp.s
 .PHONY : Source/main.cpp.s
 
 Source/src/Contenidor.obj: Source/src/Contenidor.cpp.obj
@@ -157,7 +157,7 @@ Source/src/Contenidor.obj: Source/src/Contenidor.cpp.obj
 
 # target to build an object file
 Source/src/Contenidor.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Source/src/Contenidor.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untilted.dir\build.make CMakeFiles/untilted.dir/Source/src/Contenidor.cpp.obj
 .PHONY : Source/src/Contenidor.cpp.obj
 
 Source/src/Contenidor.i: Source/src/Contenidor.cpp.i
@@ -165,7 +165,7 @@ Source/src/Contenidor.i: Source/src/Contenidor.cpp.i
 
 # target to preprocess a source file
 Source/src/Contenidor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Source/src/Contenidor.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untilted.dir\build.make CMakeFiles/untilted.dir/Source/src/Contenidor.cpp.i
 .PHONY : Source/src/Contenidor.cpp.i
 
 Source/src/Contenidor.s: Source/src/Contenidor.cpp.s
@@ -173,7 +173,7 @@ Source/src/Contenidor.s: Source/src/Contenidor.cpp.s
 
 # target to generate assembly for a file
 Source/src/Contenidor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Source/src/Contenidor.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untilted.dir\build.make CMakeFiles/untilted.dir/Source/src/Contenidor.cpp.s
 .PHONY : Source/src/Contenidor.cpp.s
 
 Source/src/Element.obj: Source/src/Element.cpp.obj
@@ -181,7 +181,7 @@ Source/src/Element.obj: Source/src/Element.cpp.obj
 
 # target to build an object file
 Source/src/Element.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Source/src/Element.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untilted.dir\build.make CMakeFiles/untilted.dir/Source/src/Element.cpp.obj
 .PHONY : Source/src/Element.cpp.obj
 
 Source/src/Element.i: Source/src/Element.cpp.i
@@ -189,7 +189,7 @@ Source/src/Element.i: Source/src/Element.cpp.i
 
 # target to preprocess a source file
 Source/src/Element.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Source/src/Element.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untilted.dir\build.make CMakeFiles/untilted.dir/Source/src/Element.cpp.i
 .PHONY : Source/src/Element.cpp.i
 
 Source/src/Element.s: Source/src/Element.cpp.s
@@ -197,7 +197,7 @@ Source/src/Element.s: Source/src/Element.cpp.s
 
 # target to generate assembly for a file
 Source/src/Element.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Source/src/Element.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untilted.dir\build.make CMakeFiles/untilted.dir/Source/src/Element.cpp.s
 .PHONY : Source/src/Element.cpp.s
 
 Source/src/Seleccio.obj: Source/src/Seleccio.cpp.obj
@@ -205,7 +205,7 @@ Source/src/Seleccio.obj: Source/src/Seleccio.cpp.obj
 
 # target to build an object file
 Source/src/Seleccio.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Source/src/Seleccio.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untilted.dir\build.make CMakeFiles/untilted.dir/Source/src/Seleccio.cpp.obj
 .PHONY : Source/src/Seleccio.cpp.obj
 
 Source/src/Seleccio.i: Source/src/Seleccio.cpp.i
@@ -213,7 +213,7 @@ Source/src/Seleccio.i: Source/src/Seleccio.cpp.i
 
 # target to preprocess a source file
 Source/src/Seleccio.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Source/src/Seleccio.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untilted.dir\build.make CMakeFiles/untilted.dir/Source/src/Seleccio.cpp.i
 .PHONY : Source/src/Seleccio.cpp.i
 
 Source/src/Seleccio.s: Source/src/Seleccio.cpp.s
@@ -221,7 +221,7 @@ Source/src/Seleccio.s: Source/src/Seleccio.cpp.s
 
 # target to generate assembly for a file
 Source/src/Seleccio.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Source/src/Seleccio.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untilted.dir\build.make CMakeFiles/untilted.dir/Source/src/Seleccio.cpp.s
 .PHONY : Source/src/Seleccio.cpp.s
 
 # Help Target
@@ -232,7 +232,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... untitled
+	@echo ... untilted
 	@echo ... Source/main.obj
 	@echo ... Source/main.i
 	@echo ... Source/main.s
