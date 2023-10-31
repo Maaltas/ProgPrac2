@@ -30,18 +30,21 @@ bool Seleccio::eliminar3iguals() {
             if (countA >= 3) {
                 eliminarSimbol('A');
                 premiFinal += i->getPremi() * 3;
+                return true;
             }
             countA++;
         }else if (i->getSimbol() == 'B') {
             if (countB >= 3) {
                 eliminarSimbol('B');
                 premiFinal += i->getPremi() * 3;
+                return true;
             }
             countB++;
         }else if (i->getSimbol() == 'C') {
             if (countC >= 3) {
                 eliminarSimbol('C');
                 premiFinal += i->getPremi() * 3;
+                return true;
             }
             countC++;
         }
@@ -49,6 +52,7 @@ bool Seleccio::eliminar3iguals() {
             if (countD >= 3) {
                 eliminarSimbol('D');
                 premiFinal += i->getPremi() * 3;
+                return true;
             }
             countD++;
         }
