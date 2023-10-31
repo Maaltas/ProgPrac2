@@ -1,3 +1,0 @@
-C:/Users/oriol/OneDrive/Escritorio/Github/ProgPrac2/cmake-build-debug/CMakeFiles/untitled.dir
-C:/Users/oriol/OneDrive/Escritorio/Github/ProgPrac2/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/oriol/OneDrive/Escritorio/Github/ProgPrac2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
